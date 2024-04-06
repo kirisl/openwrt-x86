@@ -36,18 +36,18 @@ jobs:
     - name: Checkout
       uses: actions/checkout@main
       
-    -name: spacefree
-     uses: jlumbroso/free-disk-space@main
-     with:
+    - name: spacefree
+      uses: jlumbroso/free-disk-space@main
+      with:
 #thismightremovetoolsthatareactuallyneeded,
 #ifsetto"true"butfreesabout6GB
-     tool-cache:true
+      tool-cache:true
 #allofthesedefaulttotrue,butfeelfreetosetto
 #"false"ifnecessaryforyourworkflow
-     android:true
-     dotnet:true
-     haskell:true
-     large-packages:true
+      android:true
+      dotnet:true
+      haskell:true
+      large-packages:true
      
 swap-storage:true
 
