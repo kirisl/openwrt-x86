@@ -41,15 +41,14 @@ jobs:
       with:
 #thismightremovetoolsthatareactuallyneeded,
 #ifsetto"true"butfreesabout6GB
-      tool-cache:true
+      tool-cache: true
 #allofthesedefaulttotrue,butfeelfreetosetto
 #"false"ifnecessaryforyourworkflow
-      android:true
-      dotnet:true
-      haskell:true
-      large-packages:true
-     
-swap-storage:true
+      android: true
+      dotnet: true
+      haskell: true
+      large-packages: true
+      swap-storage: true
 
     - name: Initialization environment
       env:
