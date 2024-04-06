@@ -36,8 +36,8 @@ jobs:
     - name: Checkout
       uses: actions/checkout@main
       
-    -name:spacefree
-     uses:jlumbroso/free-disk-space@main
+    -name: spacefree
+     uses: jlumbroso/free-disk-space@main
      with:
 #thismightremovetoolsthatareactuallyneeded,
 #ifsetto"true"butfreesabout6GB
